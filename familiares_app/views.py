@@ -8,5 +8,5 @@ def home(req):
     
     familiares = Familiar.objects.all()
     
-    return render(req, "index.html", {"famillares":familiares})
+    return render(req, "index.html", {"familiares":familiares})
 
